@@ -1,0 +1,35 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  form {
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1.5rem;
+      background-color: #333;
+      border: 1px solid #555;
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+  
+  button {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
